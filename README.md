@@ -6,7 +6,7 @@ RPI3 + Wolfson Audio + Chuck compiled from source
 
 ```
 $ crontab -l
-@reboot bash ~/looppi/start-daemon.sh
+@reboot CHUCK=/home/pi/binaries/chuck-1.3.5.2/src/chuck ~/looppi/start-daemon.sh
 ```
 
 ## Links
