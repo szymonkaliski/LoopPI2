@@ -12,9 +12,9 @@ amixer $1 -Dhw:sndrpiwsp cset name='HPOUT2L Input 2' None
 amixer $1 -Dhw:sndrpiwsp cset name='HPOUT2R Input 2' None
 # Setup HPOUT2 input path and volume
 amixer $1 -Dhw:sndrpiwsp cset name='HPOUT2L Input 1' AIF1RX1
-amixer $1 -Dhw:sndrpiwsp cset name='HPOUT2L Input 1 Volume' 32
+amixer $1 -Dhw:sndrpiwsp cset name='HPOUT2L Input 1 Volume' 75
 amixer $1 -Dhw:sndrpiwsp cset name='HPOUT2R Input 1' AIF1RX2
-amixer $1 -Dhw:sndrpiwsp cset name='HPOUT2R Input 1 Volume' 32
+amixer $1 -Dhw:sndrpiwsp cset name='HPOUT2R Input 1 Volume' 75
 # Unmute HPOUT2 Output
 amixer $1 -Dhw:sndrpiwsp cset name='HPOUT2 Digital Switch' on
 
